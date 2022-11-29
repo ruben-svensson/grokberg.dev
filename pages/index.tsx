@@ -31,6 +31,12 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
+      <div>
+        <div className={styles.container}>
+          <h4>God Jul as we say in Swedish.</h4>
+        </div>
+      </div>
     </div>
   );
 }
