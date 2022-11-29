@@ -1,10 +1,14 @@
+.page {
+}
+
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  margin: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .container {

@@ -19,6 +19,21 @@ export default function Home() {
           alt=""
         />
         <div className={styles.row}>
+          <div
+            style={{
+              height: "100px",
+            }}
+          >
+            <Image
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg"
+              width="80"
+              height="100"
+              style={{
+                transform: "rotate(90deg)",
+              }}
+              alt={""}
+            />
+          </div>
           <div>
             <h1>Grokberg</h1>
             <h5>Ruben Svensson</h5>
@@ -43,6 +58,8 @@ export default function Home() {
 
 export async function getStaticProps() {
   return {
-    props: {},
+    props: {
+      title: "Grokberg",
+    },
   };
 }
